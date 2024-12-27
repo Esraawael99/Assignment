@@ -1,0 +1,36 @@
+# Ignore Node.js dependency folder (if using Node.js)
+node_modules/
+
+# Ignore Python virtual environment (if using Python)
+venv/
+
+# Ignore build output directories
+dist/
+build/
+
+# Ignore Docker-related files and directories
+.docker/
+docker-compose.yml
+Dockerfile
+
+# Ignore environment configuration files (e.g., for API keys, database credentials)
+.env
+
+# Ignore IDE/editor specific files
+.vscode/
+.idea/
+
+# Ignore system-specific files (e.g., Mac, Windows)
+.DS_Store
+Thumbs.db
+
+# Ignore log files
+*.log
+
+# Ignore compiled files (e.g., Java, C++)
+*.class
+*.jar
+*.war
+
+# Ignore coverage reports (e.g., from testing)
+coverage/
